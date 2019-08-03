@@ -1,0 +1,238 @@
+/*通用样式*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#999999;
+	background:#ffffff;
+	font-size:12px;
+}
+a{
+	color:#999999;
+	text-decoration:none;
+}
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+img{
+	vertical-align:middle;
+}
+/*头部*/
+.header{
+	width:990px;
+	height:80px;
+	margin:0 auto;
+}
+.header_left{
+	float:left;
+	margin-top:10px;
+}
+.header_right{
+	float:right;
+	margin-top:60px;
+}
+/*安全法*/
+.law{
+	width:100%;
+	height:35px;
+	background:#fff8f0;
+	text-align:center;
+	line-height:35px;
+}
+.law_txt{
+	width:990px;
+	margin:0 auto;
+}
+/*背景图片*/
+.bg{
+	width:100%;
+	height:475px;
+	background:#dd2e12;
+}
+.bg_txt{
+	height:475px;
+	width:990px;
+	margin:0 auto;
+	background:url("../img/login/1.jpg")/*tpa=http://www.codeboy.com/pro/JD/img/login/1.jpg*/no-repeat;
+	position:relative;
+}
+/*登录框*/
+.login{
+	position:absolute;
+	top:9.5px;
+	right:0;
+	width:345px;
+	height:400px;
+	background:#ffffff;
+}
+.top{	
+	height:38px;
+	background:#fff8f0;
+	text-align:center;
+	line-height:38px;
+}
+/*选项卡功能*/
+.test{
+  width: 345px;
+  height:315px;
+  margin:0 auto;
+	border-bottom:1px solid #f4f4f4;
+}
+.test ul{
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  /*justify-content: center;*/
+	border-bottom:1px solid #f4f4f4;
+ }
+.test ul li{
+  width: 172px;
+  float: left;
+  text-align: center;	
+ }
+ .test ul li:nth-child(1){
+	border-right:1px solid #f4f4f4;
+ }
+.test p{
+  display: block;
+  cursor: pointer;/*鼠标样式：手*/
+	height:54px;
+	line-height:54px;
+	font-size:20px;
+	color:#666666;
+}
+.test p:hover{
+	color:red;
+}
+.box{
+  width: 345px;
+  height:255px;
+  clear: both;
+}
+#box2{
+  display: none;
+	}
+.btn1{
+  display: block;
+  }
+.btn2{
+  display: block;
+	}
+/*选项卡内容*/
+#box2 div:nth-child(1){
+	margin-top:33px;
+}
+#box2 div:nth-child(2){
+	margin-top:20px;
+}
+#box2 div:nth-child(3){
+	margin-top:22px;
+}
+#box2 div:nth-child(4){
+	margin-bottom:28px;
+}
+/*扫码登录样式*/
+#box1 div:nth-child(1){
+	margin-top:18px;
+	margin-left:21px;
+	width:302px;
+	height:170px;
+	/*border:1px solid #999999;*/
+	text-align:center;
+}
+#box1 div:nth-child(2){
+	margin-left:21px;
+	width:302px;
+	text-align:center;
+	margin-bottom:20px;
+}
+#box1 div:nth-child(2) a{
+	color:red;
+	text-decoration:none;
+}
+#box1 div:nth-child(2) span{
+	margin-right:10px;
+}
+#box1 div:nth-child(3){
+	margin-left:21px;
+	width:302px;
+	text-align:center;
+}
+#box1 div:nth-child(3) span{
+	margin-right:10px;
+}
+/*账户登录样式*/
+#box2>form{
+	margin-top:20px;
+	text-align:center;
+}
+#box2>form>p>input{
+	padding-left:10px;
+	width:280px;
+	height:39px;
+	outline:none;
+}
+#box2>form>p>input:nth-child(1){
+	margin-bottom:20px;
+}
+#box2>form>p:nth-child(3){
+	width:300px;
+}
+#box2>form>p:nth-child(3) a{
+	font-size:12px;
+	float:right;
+}
+#box2>form>p:nth-child(4) input{
+	width:290px;
+	border:0;
+	background:#e4393c;
+	color:#ffffff;
+	font-size:16px;
+	outline:none;
+}
+/*选项卡下方*/
+.down{
+	margin-left:21px;
+	width:302px;
+	height:48px;
+	line-height:48px;
+}
+.down_left{
+	float:left;
+}
+.down_right{
+	float:right;
+}
+.down_left span{
+	padding-left:8px;
+	padding-right:5px;
+}
+.down_left a{
+	color:#666666;
+}
+.down_left a:hover{
+	color:red;
+}
+/*选项卡下方右边*/
+.down_right a{
+	color:red;
+}
+/*尾部*/
+.footer{
+	width:990px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:15px;
+}
+.footer div:nth-child(1){
+	margin-top:10px;
+	height:30px;
+}
+.footer div:nth-child(1) a{
+	padding-right:7px;
+}
+.footer div:nth-child(1) span{
+	padding-right:7px;
+}

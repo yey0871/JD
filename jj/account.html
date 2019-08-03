@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>账户信息</title>
+	<link rel="stylesheet" href="css/account.css" tppabs="http://www.codeboy.com/pro/JD/css/account.css">
+</head>
+<body>
+	<!-- 页面顶部 -->
+	<div class="top">
+		<div class="top-main">
+			<div class="top-left">
+				<img src="img/head/home.png" tppabs="http://www.codeboy.com/pro/JD/img/head/home.png">
+				<a href="index.html" tppabs="http://www.codeboy.com/pro/JD/index.html">京东首页</a>
+				<img src="img/product/daohang.png" tppabs="http://www.codeboy.com/pro/JD/img/product/daohang.png">
+				<span>北京</span>
+			</div>
+			<div class="top-right">
+				<ul>
+						<li id="welcome"><a href="login.html" tppabs="http://www.codeboy.com/pro/JD/login.html">您好，请登录</a></li>
+						<li><a href="register.html" tppabs="http://www.codeboy.com/pro/JD/register.html">免费注册</a><span>|</span></li>
+						<li><a href="#">我的订单</a><span>|</span></li>
+						<li><a href="#">我的京东</a><span>|</span></li>
+						<li><a href="#">京东会员</a><span>|</span></li>
+						<li><a href="#">企业采购</a><span>|</span></li>
+						<li><a href="#">客户服务</a><span>|</span></li>
+						<li class="wzdh">
+							<a href="#">
+								网站导航
+								<div class="wzdh-list" style="display:none">
+									网站导航
+								</div>
+							</a>
+							<span>|</span>
+						</li>	
+						<li><a href="#">手机京东</a></li>
+					</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 页面头部 -->
+	<div class="header">
+		<div class="header-main">
+			<div class="header-left">
+				<a href="index.html" tppabs="http://www.codeboy.com/pro/JD/index.html"><img src="img/head/alogo.png" tppabs="http://www.codeboy.com/pro/JD/img/head/alogo.png" width="158" height="80"></a>
+			</div>
+			<div class="header-lz">
+				<p><a href="">我的京东</a></p>
+				<p><a href="index.html" tppabs="http://www.codeboy.com/pro/JD/index.html">返回京东首页</a></p>
+			</div>
+			<div class="header-rz">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">账户设置</a></li>
+					<li><a href="">社区</a></li>
+					<li><a href="">消息</a></li>
+				</ul>
+			</div>
+			<div class="header-right"></div>
+		</div>
+	</div>
+	<!-- 主体内容 -->
+		<div class="section">
+			<div class="section-left">
+				<ul>
+					<li><b>设置</b></li>
+					<li><a href="">个人信息</a></li>
+					<li><a href="">账户安全</a></li>
+					<li><a href="">我的尺码</a></li>
+					<li><a href="">账号绑定</a></li>
+					<li><a href="">收货地址</a></li>
+					<li><a href="">健康档案</a></li>
+					<li><a href="">分享绑定</a></li>
+					<li><a href="">邮件订阅</a></li>
+					<li><a href="">应用授权</a></li>
+					<li><a href="">快捷支付</a></li>
+					<li><a href="">增票资质</a></li>
+					<li><a href="">企业发票</a></li>
+					<li><a href="">采购需求单</a></li>
+				</ul>
+			</div>
+			<!-- 主体内容右侧 -->
+			<div class="section-right">
+				<div class="section-main">
+					<div class="section-top">
+						<ul>
+							<li>
+								基本信息
+							</li>
+							<li>头像照片</li>
+							<li>更多个人信息</li>
+						</ul>
+						<div class="lists">
+							<div class="lists-left">
+								<table>
+									<tr>
+										<td>用户名 : </td>
+										<td>
+											<span>jd_6e017cdc11c5d</span>
+										</td>
+									</tr>
+									<tr>
+										<td>登录名 : </td>
+										<td>
+											<span>jd_6e017cdc11c5d</span>
+											<a href="">修改</a>
+											<span>可用于登录，请记牢哦~</span>
+										</td>
+									</tr>
+									<tr>
+										<td>昵称 : </td>
+										<td>
+											<input type="text" value=" jd_6e017cdc11c5d">
+										</td>
+									</tr>
+									<tr>
+										<td>性别 : </td>
+										<td>
+											<input v-model="userSex" type="radio" name="sex" checked  value="male">男
+											<input v-model="userSex" type="radio" name="sex"  value="female">女
+											<input v-model="userSex" type="radio" name="sex"  value="baomi">保密
+										</td>
+									</tr>
+									<tr>
+										<td>生日 : </td>
+										<td>
+											<select v-model="city">
+												<option value="">请选择</option>
+												<option value="2018">2018</option>
+												<option value="">2017</option>
+												<option value="">2016</option>
+												<option value="">2015</option>
+												<option value="">2014</option>
+												<option value="">2013</option>
+												<option value="">2012</option>
+												<option value="">2011</option>
+												<option value="">2010</option>
+												<option value="">2009</option>
+												<option value="">2008</option>
+												<option value="">2007</option>
+												<option value="">2006</option>
+												<option value="">2005</option>
+												<option value="">2004</option>
+												<option value="">2003</option>
+												<option value="">2002</option>
+												<option value="">2001</option>
+												<option value="">2000</option>
+												<option value="">1999</option>
+												<option value="">1998</option>
+												<option value="">1997</option>
+												<option value="">1996</option>
+												<option value="">1995</option>
+												<option value="">1994</option>
+												<option value="">1993</option>
+												<option value="">1992</option>
+												<option value="">1991</option>
+												<option value="">1990</option>
+											</select>年
+											<select>
+												<option value="">请选择</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+												<option value="">4</option>
+												<option value="">5</option>
+												<option value="">6</option>
+												<option value="">7</option>
+												<option value="">8</option>
+												<option value="">9</option>
+												<option value="">10</option>
+												<option value="">11</option>
+												<option value="">12</option>
+											</select>月
+											<select name="" id="">
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+												<option value="">4</option>
+												<option value="">5</option>
+												<option value="">6</option>
+												<option value="">7</option>
+												<option value="">8</option>
+												<option value="">9</option>
+												<option value="">10</option>
+												<option value="">11</option>
+												<option value="">12</option>
+												<option value="">13</option>
+												<option value="">14</option>
+												<option value="">15</option>
+												<option value="">16</option>
+												<option value="">17</option>
+												<option value="">18</option>
+												<option value="">19</option>
+												<option value="">20</option>
+												<option value="">21</option>
+												<option value="">22</option>
+												<option value="">23</option>
+												<option value="">24</option>
+												<option value="">25</option>
+												<option value="">26</option>
+												<option value="">27</option>
+												<option value="">28</option>
+												<option value="">29</option>
+												<option value="">30</option>
+											</select>日
+											<span>填生日有惊喜哦~</span>
+										</td>
+									</tr>
+									<tr>
+										<td>兴趣爱好 : </td>
+										<td>请选择您感兴趣的分类，给您最精准的推荐</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<p>
+												<span>图书音像/电子书刊</span>
+												<span>家用电器</span>
+												<span>手机/数码</span>
+												<span>电脑/办公</span>
+											</p>
+											<p>
+												<span>家居/家具/家装/厨具</span>
+												<span>服饰内衣/珠宝首饰</span>
+												<span>个护化妆</span>
+											</p>
+											<p>
+												<span>鞋靴/箱包/钟表/奢侈品</span>
+												<span>运动健康</span>
+												<span>汽车用品</span>
+											</p>
+											<p>
+												<span>母婴/玩具乐器</span>
+												<span>食品饮料/保健食品</span>
+												<span>彩票/旅行/充值/票务</span>
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td>邮箱 : </td>
+										<td><a href="">立即验证</a></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<button>提交</button>
+										</td>
+									</tr>
+								</table>
+							</div>	
+							<div class="lists-right">
+								<div class="tx-left">
+									<img src="img/tx.jpg" tppabs="http://www.codeboy.com/pro/JD/img/tx.jpg" width="100" height="100">
+								</div>
+								<div class="tx-right">
+									<b>用户名:jd_6e017cdc11c5d</b>
+									<p><a href="">京享值1315</a></p>
+									<p>
+										<span>小白信用:</span>88.6
+									</p>
+									<p>会员类型:个人用户</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 页面底部 -->
+	<footer id="footer"></footer>
+
+	<script src="js/jquery-1.11.3.js" tppabs="http://www.codeboy.com/pro/JD/js/jquery-1.11.3.js"></script>
+	<script src="js/foot.js" tppabs="http://www.codeboy.com/pro/JD/js/foot.js"></script>
+</body>
+</html>
